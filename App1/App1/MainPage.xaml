@@ -2,10 +2,18 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:App1"
-             x:Class="App1.MainPage">
-
-	<Label Text="Welcome to Xamarin Forms!" 
+             x:Class="App1.MainPage"
+             Title="APLICATIVO NOVO">
+    <StackLayout VerticalOptions="Center">
+        
+        <Label Text=" Digite seu nome aqui: " FontAttributes="Bold" BackgroundColor="Aqua" FontSize="16"    
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
+        
+        <Entry Placeholder="Seu nome aqui" FontSize="15" />
 
+        <Button Text="Clique aqui"   FontSize="Medium"/>
+        
+
+    </StackLayout>
 </ContentPage>

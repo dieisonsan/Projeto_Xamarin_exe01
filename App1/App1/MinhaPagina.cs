@@ -9,7 +9,8 @@ namespace App1
     {
         public MinhaPagina()
         {
-            Content: new StackLayout
+            
+
         }
 
     }
